@@ -13,7 +13,7 @@ function readFeed(beach, cb) {
     const regex = {
       rainfall: /Rainfall:\s([0-9]+)mm/,
       max: /maximum temperature:\s([0-9]+)<sup>/,
-      min: /Ocean temperature:\s+([0-9]+)<sup>/,
+      ocean: /Ocean temperature:\s+([0-9]+)<sup>/,
       hightide: /High tide:\s(\d*\.?\d*)\smetres/,
       lowtide: /Low tide:\s(\d*\.?\d*)\smetres/
     };
