@@ -1,5 +1,5 @@
 {
-  "name": "docker-beachwatch",
+  "name": "beachwatcher",
   "description": "Fetch data from NSW beachwatch",
   "version": "1.0.0",
   "scripts": {
